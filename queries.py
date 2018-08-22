@@ -8,7 +8,7 @@
 # Mage -- Necromancer is a subclass of Mage, and will need to be filtered out
 >>> mage = Mage.objects.filter(necromancer__isnull=True)
 >>> mage.count()
-#97
+#Answer is 97
 
 #Clerics
 >>> cleric = Cleric.objects.all()
